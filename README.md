@@ -75,32 +75,3 @@
    POST https://api.telegram.org/bot<token>/setWebhook
    Body: {"url": "https://<your-api-endpoint>"}
 
-
-
-
-   +---------------------+
-|  Telegram User      |
-+---------------------+
-          |
-          v
-+---------------------+
-|  Telegram Server    |
-+---------------------+
-          |
-Webhook Integration
-          |
-          v
-+---------------------+
-|  AWS API Gateway    |
-+---------------------+
-          |
-          v
-+---------------------+
-| AWS Lambda Function |
-+---------------------+
-          |
-          v
-+---------------------+
-|  Response to User   |
-+---------------------+
-
